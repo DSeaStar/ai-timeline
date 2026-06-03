@@ -2,6 +2,30 @@
 
 记录文生图、文生视频、大语言模型等 AI 相关技术在发展过程中的重要时间点。
 
+## 自动更新
+
+仓库配置了每日自动更新：
+
+- **时间**：每天 8:17（UTC+8），自动抓取 AI 新闻
+- **来源**：Reddit r/artificial、Hacker News 等
+- **范围**：自动筛选当天热门的 AI 相关新闻，最多取 Top 5
+- **分类**：根据关键词自动分类（LLM、文生图、文生视频等）
+- **审核**：自动提交后推送到 GitHub，无需人工干预
+
+### 手动触发
+
+```bash
+cd /root/.openclaw/workspace/ai-timeline
+export GITHUB_TOKEN=$(cat /root/.ai-timeline-token)
+./scripts/run_daily.sh
+```
+
+### 日志查看
+
+```bash
+tail -f /tmp/ai-timeline-daily.log
+```
+
 ## 项目说明
 
 这是一个中文的 AI 技术发展时间线仓库，追踪人工智能领域的关键里程碑事件，包括：
