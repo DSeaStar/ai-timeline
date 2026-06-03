@@ -1,0 +1,53 @@
+- date: "2022-11-30"
+  title: "OpenAI 发布 ChatGPT"
+  category: "llm"
+  description: "OpenAI 发布 ChatGPT，基于 GPT-3.5 的对话模型，免费向公众开放，引发全球 AI 应用热潮。"
+  links:
+    - text: "OpenAI 博客"
+      url: "https://openai.com/blog/chatgpt"
+  tags: ["OpenAI", "ChatGPT", "GPT-3.5", "Milestone"]
+
+- date: "2022-11-01"
+  title: "Stability AI 开源 Stable Diffusion 2.0"
+  category: "image"
+  description: "Stability AI 发布 Stable Diffusion 2.0，开源图像生成模型，推动 AI 图像生成民主化。"
+  links:
+    - text: "Stability AI"
+      url: "https://stability.ai/"
+  tags: ["Stability AI", "Stable Diffusion", "Open Source"]
+
+- date: "2022-08-22"
+  title: "Stable Diffusion 1.0 开源"
+  category: "image"
+  description: "Stability AI 和 Runway 开源 Stable Diffusion，基于潜在扩散模型，支持消费级 GPU 运行。"
+  links:
+    - text: "Stability AI"
+      url: "https://stability.ai/"
+  tags: ["Stability AI", "Stable Diffusion", "Open Source"]
+
+- date: "2022-04-06"
+  title: "OpenAI 发布 DALL·E 2"
+  category: "image"
+  description: "OpenAI 发布 DALL·E 2，图像生成质量和分辨率大幅提升，支持图像编辑和扩展。"
+  links:
+    - text: "OpenAI 博客"
+      url: "https://openai.com/dall-e-2"
+  tags: ["OpenAI", "DALL-E", "DALL-E 2", "Image Generation"]
+
+- date: "2022-03-01"
+  title: "Google 发布 PaLM (540B)"
+  category: "research"
+  description: "Google 发布 PaLM（Pathways Language Model），540B 参数，在 few-shot 学习上达到新高度。"
+  links:
+    - text: "论文"
+      url: "https://arxiv.org/abs/2204.02311"
+  tags: ["Google", "PaLM", "Research"]
+
+- date: "2022-01-01"
+  title: "Midjourney 公测"
+  category: "image"
+  description: "Midjourney 开放公测，基于 Discord 的 AI 图像生成服务，以艺术风格见长。"
+  links:
+    - text: "Midjourney"
+      url: "https://midjourney.com/"
+  tags: ["Midjourney", "Image Generation", "Beta"]

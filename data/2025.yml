@@ -1,0 +1,80 @@
+- date: "2025-06-01"
+  title: "xAI 发布 Grok 4"
+  category: "llm"
+  description: "xAI 发布 Grok 4，在 ARC-AGI v2 上达到 15.9% SOTA，Humanity's Last Exam 达到 25.4%。"
+  links:
+    - text: "xAI 公告"
+      url: "https://x.ai/"
+  tags: ["xAI", "Grok", "Reasoning"]
+
+- date: "2025-05-01"
+  title: "OpenAI 发布 Codex"
+  category: "llm"
+  description: "OpenAI 发布 Codex，一个自主代码智能体，集成在 ChatGPT 中，由 o3 模型驱动，支持编写代码、调试、测试和创建 GitHub Pull Request。"
+  links:
+    - text: "OpenAI 公告"
+      url: "https://openai.com/codex"
+  tags: ["OpenAI", "Codex", "Agent", "Coding"]
+
+- date: "2025-05-01"
+  title: "Anthropic 发布 Claude 4 Opus 和 Sonnet 4"
+  category: "llm"
+  description: "Anthropic 发布 Claude 4 系列：Opus 4 提供混合'深度思考'模式，支持 7 小时自主运行；Sonnet 4 专注于数学和代码性能提升。"
+  links:
+    - text: "Anthropic 公告"
+      url: "https://anthropic.com/"
+  tags: ["Anthropic", "Claude", "Claude4"]
+
+- date: "2025-04-01"
+  title: "Meta 发布 Llama 4"
+  category: "llm"
+  description: "Meta 发布 Llama 4，包含三个版本，上下文窗口达 1000 万 token，支持多模态理解。"
+  links:
+    - text: "Meta 公告"
+      url: "https://ai.meta.com/llama/"
+  tags: ["Meta", "Llama", "Llama4", "Open Source"]
+
+- date: "2025-04-01"
+  title: "Midjourney 发布 v7"
+  category: "image"
+  description: "Midjourney 发布 v7，图像质量大幅提升，支持更精确的风格控制。"
+  links:
+    - text: "Midjourney"
+      url: "https://midjourney.com/"
+  tags: ["Midjourney", "v7", "Image Generation"]
+
+- date: "2025-03-01"
+  title: "Google 发布 Gemini 2.5 Pro"
+  category: "llm"
+  description: "Google 发布 Gemini 2.5 Pro，实验性'思考模型'，具备先进推理和规划能力，100 万 token 上下文窗口，在多个基准测试中排名第一。"
+  links:
+    - text: "Google 博客"
+      url: "https://blog.google/"
+  tags: ["Google", "Gemini", "Gemini2.5", "Thinking Model"]
+
+- date: "2025-03-01"
+  title: "阿里开源 Qwen 3"
+  category: "llm"
+  description: "阿里巴巴开源 Qwen 3，提供多种尺寸，在小尺寸模型中展现出令人印象深刻的能力。"
+  links:
+    - text: "Qwen GitHub"
+      url: "https://github.com/QwenLM/Qwen3"
+  tags: ["Alibaba", "Qwen", "Qwen3", "Open Source"]
+
+- date: "2025-02-01"
+  title: "DeepSeek 开源 R1-0528"
+  category: "llm"
+  description: "DeepSeek 开源 R1-0528，代码和推理模型，性能接近 o4-mini，计算需求适中。"
+  links:
+    - text: "DeepSeek GitHub"
+      url: "https://github.com/deepseek-ai/"
+  tags: ["DeepSeek", "R1", "Open Source", "Reasoning"]
+
+- date: "2025-01-01"
+  title: "OpenAI 发布 o3 系列"
+  category: "llm"
+  description: "OpenAI 发布 o3 完整版和 o4-mini，用于推理、数学和编码的高级模型。"
+  links:
+    - text: "OpenAI 公告"
+      url: "https://openai.com/"
+  tags: ["OpenAI", "o3", "o4-mini", "Reasoning"]

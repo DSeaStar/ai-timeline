@@ -1,0 +1,89 @@
+- date: "2023-12-06"
+  title: "Google 发布 Gemini 1.0"
+  category: "llm"
+  description: "Google 发布 Gemini 1.0，声称原生多模态设计，Ultra 版本在 32 项基准测试中有 30 项超越 GPT-4。"
+  links:
+    - text: "Google 博客"
+      url: "https://blog.google/technology/ai/google-gemini-ai/"
+  tags: ["Google", "Gemini", "Gemini1.0"]
+
+- date: "2023-11-07"
+  title: "OpenAI 发布 GPT-4 Turbo 和 GPTs"
+  category: "llm"
+  description: "OpenAI 在 DevDay 上发布 GPT-4 Turbo（128k 上下文）、GPTs（自定义 ChatGPT）和 Assistants API。"
+  links:
+    - text: "OpenAI 博客"
+      url: "https://openai.com/blog/new-models-and-developer-products-announced-at-devday"
+  tags: ["OpenAI", "GPT-4", "GPTs", "Assistants"]
+
+- date: "2023-11-01"
+  title: "xAI 发布 Grok-1"
+  category: "llm"
+  description: "Elon Musk 的 xAI 发布 Grok-1，声称具有实时互联网访问能力和'叛逆'性格。"
+  links:
+    - text: "xAI 博客"
+      url: "https://x.ai/blog/grok"
+  tags: ["xAI", "Grok", "Elon Musk"]
+
+- date: "2023-10-01"
+  title: "百度发布文心一言 4.0"
+  category: "llm"
+  description: "百度发布文心一言 4.0，声称综合能力对标 GPT-4，支持插件、多模态理解和代码生成。"
+  links:
+    - text: "百度"
+      url: "https://yiyan.baidu.com/"
+  tags: ["Baidu", "ERNIE", "文心一言", "China"]
+
+- date: "2023-09-01"
+  title: "OpenAI 发布 DALL·E 3"
+  category: "image"
+  description: "OpenAI 发布 DALL·E 3，图像生成质量大幅提升，与 ChatGPT 集成，支持自然语言提示词优化。"
+  links:
+    - text: "OpenAI 博客"
+      url: "https://openai.com/dall-e-3"
+  tags: ["OpenAI", "DALL-E", "DALL-E 3", "Image Generation"]
+
+- date: "2023-07-18"
+  title: "Meta 开源 Llama 2"
+  category: "llm"
+  description: "Meta 开源 Llama 2（7B/13B/70B），允许商业使用，推动开源大模型生态发展。"
+  links:
+    - text: "Meta 博客"
+      url: "https://ai.meta.com/llama/"
+  tags: ["Meta", "Llama", "Llama2", "Open Source"]
+
+- date: "2023-03-14"
+  title: "OpenAI 发布 GPT-4"
+  category: "llm"
+  description: "OpenAI 发布 GPT-4，多模态大模型（支持图像输入），在专业和学术基准测试中表现接近人类水平。"
+  links:
+    - text: "OpenAI 博客"
+      url: "https://openai.com/research/gpt-4"
+  tags: ["OpenAI", "GPT-4", "Multimodal"]
+
+- date: "2023-02-24"
+  title: "Meta 开源 LLaMA"
+  category: "llm"
+  description: "Meta 开源 LLaMA 大模型（7B/13B/33B/65B），仅限研究用途，引发开源大模型浪潮。"
+  links:
+    - text: "Meta 博客"
+      url: "https://ai.meta.com/blog/large-language-model-llama-meta-ai/"
+  tags: ["Meta", "LLaMA", "Open Source"]
+
+- date: "2023-01-01"
+  title: "ChatGPT 用户突破 1 亿"
+  category: "business"
+  description: "ChatGPT 成为历史上增长最快的消费级应用，月活用户突破 1 亿（用时约 2 个月）。"
+  links:
+    - text: "Reuters 报道"
+      url: "https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/"
+  tags: ["OpenAI", "ChatGPT", "Milestone"]
+
+- date: "2023-01-01"
+  title: "Microsoft 投资 OpenAI 100 亿美元"
+  category: "business"
+  description: "Microsoft 宣布向 OpenAI 追加投资 100 亿美元，加深战略合作关系。"
+  links:
+    - text: "Microsoft 博客"
+      url: "https://blogs.microsoft.com/blog/2023/01/23/microsoftandopenaiextendpartnership/"
+  tags: ["Microsoft", "OpenAI", "Investment"]

@@ -1,0 +1,98 @@
+- date: "2024-12-01"
+  title: "Google 发布 Veo 2 视频生成模型"
+  category: "video"
+  description: "Google 发布 Veo 2 视频生成模型，支持更高质量、更长时长和更精确的物理模拟。"
+  links:
+    - text: "Google 博客"
+      url: "https://deepmind.google/technologies/veo/veo-2/"
+  tags: ["Google", "Veo", "Veo2", "Video Generation"]
+
+- date: "2024-12-01"
+  title: "OpenAI 发布 o1 正式版"
+  category: "llm"
+  description: "OpenAI 发布 o1 正式版，推理模型在数学、编程和科学问题上表现显著优于 GPT-4o。"
+  links:
+    - text: "OpenAI 公告"
+      url: "https://openai.com/o1/"
+  tags: ["OpenAI", "o1", "Reasoning"]
+
+- date: "2024-11-01"
+  title: "OpenAI 发布 GPT-4o"
+  category: "llm"
+  description: "OpenAI 发布 GPT-4o（omni），原生多模态模型，支持文本、音频、图像和视频作为输入和输出，延迟大幅降低。"
+  links:
+    - text: "OpenAI 公告"
+      url: "https://openai.com/index/hello-gpt-4o/"
+  tags: ["OpenAI", "GPT-4o", "Multimodal"]
+
+- date: "2024-06-01"
+  title: "Runway 发布 Gen-3 Alpha"
+  category: "video"
+  description: "Runway 发布 Gen-3 Alpha，视频生成质量大幅提升，支持更精细的运动控制和物理一致性。"
+  links:
+    - text: "Runway 公告"
+      url: "https://runwayml.com/"
+  tags: ["Runway", "Gen-3", "Video Generation"]
+
+- date: "2024-06-01"
+  title: "快手发布可灵（Kling）"
+  category: "video"
+  description: "快手发布可灵（Kling）视频生成模型，支持最长 2 分钟、1080P 分辨率的高质量视频生成。"
+  links:
+    - text: "可灵官网"
+      url: "https://klingai.com/"
+  tags: ["Kling", "Kuaishou", "Video Generation", "China"]
+
+- date: "2024-06-01"
+  title: "Stable Diffusion 3 发布"
+  category: "image"
+  description: "Stability AI 发布 Stable Diffusion 3，采用新的多模态扩散 Transformer (MMDiT) 架构，文本理解和图像质量大幅提升。"
+  links:
+    - text: "Stability AI"
+      url: "https://stability.ai/"
+  tags: ["Stability AI", "Stable Diffusion", "SD3", "Image Generation"]
+
+- date: "2024-05-01"
+  title: "OpenAI 发布 GPT-4o"
+  category: "llm"
+  description: "OpenAI 发布 GPT-4o（omni），原生多模态模型，支持文本、音频、图像和视频作为输入和输出。"
+  links:
+    - text: "OpenAI 公告"
+      url: "https://openai.com/index/hello-gpt-4o/"
+  tags: ["OpenAI", "GPT-4o", "Multimodal"]
+
+- date: "2024-04-01"
+  title: "Suno v3 发布"
+  category: "speech"
+  description: "Suno 发布 v3 版本，AI 音乐生成质量达到商用水平，支持生成完整歌曲包括人声和伴奏。"
+  links:
+    - text: "Suno"
+      url: "https://suno.com/"
+  tags: ["Suno", "Music Generation", "Audio"]
+
+- date: "2024-03-01"
+  title: "Claude 3 系列发布"
+  category: "llm"
+  description: "Anthropic 发布 Claude 3 系列（Opus、Sonnet、Haiku），在多项基准测试中超越 GPT-4。"
+  links:
+    - text: "Anthropic 公告"
+      url: "https://anthropic.com/news/claude-3-family"
+  tags: ["Anthropic", "Claude", "Claude3"]
+
+- date: "2024-02-15"
+  title: "OpenAI 发布 Sora"
+  category: "video"
+  description: "OpenAI 发布 Sora 视频生成模型，可生成长达 60 秒的高质量视频，展现对物理世界的基本理解。"
+  links:
+    - text: "OpenAI Sora"
+      url: "https://openai.com/sora"
+  tags: ["OpenAI", "Sora", "Video Generation"]
+
+- date: "2024-02-01"
+  title: "Google 发布 Gemini 1.5 Pro"
+  category: "llm"
+  description: "Google 发布 Gemini 1.5 Pro，支持 100 万 token 上下文窗口，长文档和视频理解能力大幅提升。"
+  links:
+    - text: "Google 博客"
+      url: "https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/"
+  tags: ["Google", "Gemini", "Gemini1.5", "Long Context"]

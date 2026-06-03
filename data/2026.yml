@@ -1,0 +1,17 @@
+- date: "2026-06-01"
+  title: "OpenAI 更新 GPT-4.1 系列"
+  category: "llm"
+  description: "OpenAI 更新 GPT-4.1 系列，包含三个版本，上下文窗口达 100 万 token，在长文档理解任务上表现优异。"
+  links:
+    - text: "OpenAI 公告"
+      url: "https://openai.com/"
+  tags: ["OpenAI", "GPT-4.1", "Long Context"]
+
+- date: "2026-01-01"
+  title: "Google 发布 Gemini 2.5 Flash"
+  category: "llm"
+  description: "Google 发布 Gemini 2.5 Flash，动态推理模式，允许调整推理强度或关闭推理以提升速度。"
+  links:
+    - text: "Google 博客"
+      url: "https://blog.google/"
+  tags: ["Google", "Gemini", "Gemini2.5", "Flash"]
