@@ -52,15 +52,22 @@ def fetch_reddit_ai_news():
         return []
 
 def fetch_hackernews_ai():
-    """Fetch AI-related stories from Hacker News."""
-    import urllib.request
+    """Fetch AI-related stories from Hacker News via curl."""
+    import subprocess
+    import json
     
-    url = "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=AI%20OR%20LLM%20OR%20GPT%20OR%20model&hitsPerPage=10"
-    req = urllib.request.Request(url, headers={"User-Agent": "AI-Timeline-Bot/1.0"})
+    url = "https://hn.algolia.com/api/v1/search_by_date?tags=story&query=AI%20OR%20LLM%20OR%20GPT%20OR%20model&hitsPerPage=15"
     
     try:
-        with urllib.request.urlopen(req, timeout=30) as resp:
-            data = json.loads(resp.read().decode())
+        result = subprocess.run(
+            ["curl", "-sS", "--max-time", "15", url],
+            capture_output=True, text=True, timeout=20
+        )
+        if result.returncode != 0:
+            print(f"Hacker News curl failed: {result.stderr}")
+            return []
+        
+        data = json.loads(result.stdout)
         
         news = []
         for hit in data.get("hits", []):
@@ -147,9 +154,8 @@ def main():
     """Main daily update routine."""
     print(f"=== AI Timeline Daily Update: {datetime.now().isoformat()} ===")
     
-    # Fetch news from multiple sources
+    # Fetch news from Hacker News (Reddit blocked)
     all_news = []
-    all_news.extend(fetch_reddit_ai_news())
     all_news.extend(fetch_hackernews_ai())
     
     # Sort by score (popularity) and filter today only
@@ -159,6 +165,9 @@ def main():
     
     if not today_news:
         print("No AI news found for today.")
+        # Still regenerate and push so that the repo stays alive
+        generate_markdown()
+        commit_and_push()
         return
     
     print(f"Found {len(today_news)} AI news items for today")
